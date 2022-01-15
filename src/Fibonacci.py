@@ -7,8 +7,11 @@
 # run with： python Fibonacci.py
 # ===============================
 
-# 矩阵乘法（2*2）
-def matricx_pow(A, B):
+'''
+本题矩阵比较简单，np.dot速度反而满，所以自己实现了矩阵乘法
+如果要用numpy，注意要修改dtype，否则到第47个数时，默认的int32会爆精度
+'''
+def matricx_pow(A, B): 
     return [[ A[0][0]*B[0][0]+A[0][1]*B[1][0], A[0][0]*B[0][1]+A[0][1]*B[1][1]],
             [ A[1][0]*B[0][0]+A[1][1]*B[1][0], A[1][0]*B[0][1]+A[1][1]*B[1][1]]]
 
@@ -29,7 +32,6 @@ def fibonacci(n):
     if(n==1 or n==2):
         return 1
     A = [[1,1],[1,0]]
-    b = [[1],[1]]
     A_n = quick_power(A, n-2)
     res = A_n[0][0]+A_n[0][1]
     return res

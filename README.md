@@ -5,9 +5,9 @@
 ## 计划完成
 
 - [x] [矩阵快速幂计算斐波那契数列](https://github.com/Roxanne718/algorithm/blob/main/src/Fibonacci.py)
-- [ ] 状态压缩、状态哈希与翻转开关问题
+- [x] [状态压缩与翻转开关问题]((https://github.com/Roxanne718/algorithm/blob/main/src/Switch.py))
 - [ ] 迭代加深搜索与埃及分数问题
-- [ ] 双向广度优先搜索与八数码问题
+- [ ] 双向广度优先搜索、康托展开与八数码问题
 - [ ] 一维动态规划与爬楼梯问题（使用矩阵快速幂加速）
 - [ ] 单调队列优化、斜率优化与最长上升子序列问题
 - [ ] ~~最长回文子序列与个数问题~~
@@ -21,6 +21,12 @@
 - [ ] 优化与判定问题————以二分答案为例
 - [ ] 一维搜索问题（线搜索）
 - [ ] 随机化快速排序及其期望时间复杂度
+
+
+<!-- ## 经典问题优化
+
+- [ ] 八皇后问题(https://github.com/Roxanne718/algorithm/blob/main/src/Queen.py) -->
+
 
 ## 依赖
 
