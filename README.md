@@ -5,7 +5,7 @@
 ## 计划完成
 
 - [x] [矩阵快速幂计算斐波那契数列](https://github.com/Roxanne718/algorithm/blob/main/src/Fibonacci.py)
-- [x] [状态压缩与翻转开关问题]((https://github.com/Roxanne718/algorithm/blob/main/src/Switch.py))
+- [x] [状态压缩与翻转开关问题](https://github.com/Roxanne718/algorithm/blob/main/src/Switch.py)
 - [ ] 迭代加深搜索与埃及分数问题
 - [ ] 双向广度优先搜索、康托展开与八数码问题
 - [ ] 一维动态规划与爬楼梯问题（使用矩阵快速幂加速）
