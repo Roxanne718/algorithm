@@ -42,13 +42,14 @@ def iddfs(a, b, depth, res=[])->bool:
         elif(len(BEST)==len(res) and BEST[-1]>res[-1]):
             BEST = res
         return True
-    elif(depth==0): # 到达最大深度
+    elif(depth==0):
+        # 到达最大深度
         return False
     begin = math.ceil(b/a)
     flag = False
     while True: # BFS
-        if(((1.0/begin)*depth) < (float(a)/float(b))): # 当前深度下新的解
-            break
+        if(((1.0/begin)*depth) < (float(a)/float(b))):
+            break # 当前深度下没有新的解
         if begin not in res:
             new_a, new_b = sub(a, b, begin)
             tmp_res = copy.deepcopy(res)
