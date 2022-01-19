@@ -21,7 +21,7 @@
 - [ ] 优化与判定问题————以二分答案为例
 - [ ] 一维搜索问题（线搜索）
 - [ ] 随机化快速排序及其期望时间复杂度
-- [x] 开盲盒(https://github.com/Roxanne718/algorithm/blob/main/src/BlindBox.py)
+- [x] [期望DP与开盲盒](https://github.com/Roxanne718/algorithm/blob/main/src/BlindBox.py)
 
 <!-- ## 经典问题优化
 
