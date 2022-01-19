@@ -1,4 +1,4 @@
- # Algorithm
+# Algorithm
 
 这个仓库整理本学期让我“茅塞顿开”的一些算法题，人在假期非常散漫，欢迎催更。
 
@@ -21,12 +21,11 @@
 - [ ] 优化与判定问题————以二分答案为例
 - [ ] 一维搜索问题（线搜索）
 - [ ] 随机化快速排序及其期望时间复杂度
-
+- [x] 开盲盒(https://github.com/Roxanne718/algorithm/blob/main/src/BlindBox.py)
 
 <!-- ## 经典问题优化
 
 - [ ] 八皇后问题(https://github.com/Roxanne718/algorithm/blob/main/src/Queen.py) -->
-
 
 ## 依赖
 
