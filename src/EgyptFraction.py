@@ -28,7 +28,7 @@ def sub(a,b,c):
     else:
         aa = a*c-b
         bb = b*c
-    for i in range(int(aa), 2, -1):# 约分
+    for i in range(int(aa), 1, -1):# 约分
         if(aa%i==0 and bb%i==0):
             aa/=i
             bb/=i
@@ -42,8 +42,7 @@ def iddfs(a, b, depth, res=[])->bool:
         elif(len(BEST)==len(res) and BEST[-1]>res[-1]):
             BEST = res
         return True
-    elif(depth==0):
-        # 到达最大深度
+    elif(depth==0): # max depth
         return False
     begin = math.ceil(b/a)
     flag = False
