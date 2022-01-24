@@ -20,6 +20,9 @@
 # problem3:保留一个玩偶始终不选
 # return ((n-1)/n)^k
 # ================================================================
+# problem4:期望DP倒推
+# dp[i] = 1 + p(抽到原有的)*dp[i] + ∑{新的j, (i转移到j的概率)*dp[j]})
+# ================================================================
 
 import math
 
@@ -69,15 +72,15 @@ def problem4(n=5, prob=[0.1, 0.1, 0.2, 0.2, 0.4]):
                 new = ''.join(new)
                 j = int(new,2)
                 dp[i] += prob[index]*dp[j]
-                # dp[i] = (1/(1-transfer[i][i]))*(1+∑{新的j, (i转移到j的概率)*dp[j]})
+                # dp[i] = (1/(1-抽到原有的))*(1+∑{新的j, (i转移到j的概率)*dp[j]})
             else:
                 nonew -= prob[index]
         dp[i] /= nonew
  
     print(dp[0])
     
-solution1()
-solution2()
-problem2(k=2, n=10)
-problem3(k=2, n=10)
-problem4(n=5, prob=[0.1, 0.1, 0.2, 0.2, 0.4])
+solution1() # 518.7377517639619
+solution2() # 518.737751763962
+problem2(k=2, n=10) # 0.9
+problem3(k=2, n=10) # 0.81
+problem4(n=5, prob=[0.1, 0.1, 0.2, 0.2, 0.4]) # 16.57539682539683
