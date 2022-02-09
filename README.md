@@ -7,9 +7,9 @@
 - [x] [矩阵快速幂计算斐波那契数列](https://github.com/Roxanne718/algorithm/blob/main/src/Fibonacci.py)
 - [x] [状态压缩与翻转开关问题](https://github.com/Roxanne718/algorithm/blob/main/src/Switch.py)
 - [x] [迭代加深搜索与埃及分数问题](https://github.com/Roxanne718/algorithm/blob/main/src/EgyptFraction.py)
-- [ ] [双向广度优先搜索、康托展开与八数码问题](https://github.com/Roxanne718/algorithm/blob/main/src/EightNumbers.py)
+- [x] [双向广度优先搜索、康托展开与八数码问题](https://github.com/Roxanne718/algorithm/blob/main/src/EightNumbers.py)
 - [ ] ~~一维动态规划与爬楼梯问题（使用矩阵快速幂加速）~~
-- [ ] 单调队列优化、斜率优化与最长上升子序列问题
+- [x] [最长上升子序列问题](https://github.com/Roxanne718/algorithm/blob/main/src/LongestIncreasingSubsequence.py)
 - [ ] ~~最长回文子序列与个数问题~~
 - [ ] 四边形不等式优化与最优矩阵链乘法
 - [ ] 倍增思想与区间最值查询
