@@ -22,6 +22,7 @@
 - [ ] 一维搜索问题（线搜索）
 - [ ] 随机化快速排序及其期望时间复杂度
 - [x] [期望DP与开盲盒](https://github.com/Roxanne718/algorithm/blob/main/src/BlindBox.py)
+- [x] [合并K个升序链表](https://github.com/Roxanne718/algorithm/blob/main/src/MergeKSortedLists.py)
 
 <!-- ## 经典问题优化
 
